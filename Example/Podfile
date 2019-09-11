@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'KFUPnP_Example' do
+  pod 'KFUPnP', :path => '../'
+
+  target 'KFUPnP_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
