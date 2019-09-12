@@ -1,0 +1,6 @@
+framework module Pods_KFUPnP_Tests {
+  umbrella header "Pods-KFUPnP_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "KFUPnP",
+  "version": "0.1.0",
+  "summary": "A short description of KFUPnP.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AlbertBoy/KFUPnP",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AlbertBoy": "fengsc@328ym.com"
+  },
+  "source": {
+    "git": "https://github.com/AlbertBoy/KFUPnP.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KFUPnP/Classes/ARC/**/*",
+  "libraries": [
+    "icucore",
+    "c++",
+    "z",
+    "xml2"
+  ],
+  "dependencies": {
+    "CocoaAsyncSocket": [
+
+    ]
+  },
+  "xcconfig": {
+    "ENABLE_BITCODE": "NO",
+    "HEADER_SEARCH_PATHS": "${SDKROOT}/usr/include/libxml2",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "subspecs": [
+    {
+      "name": "MRC",
+      "source_files": "KFUPnP/Classes/MRC/GData/*",
+      "requires_arc": false
+    }
+  ]
+}

@@ -24,6 +24,10 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A5AAAA4438F26695613B079D /* Pods_KFUPnP_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D157C5566CE9B8D5CD5045C0 /* Pods_KFUPnP_Example.framework */; };
+		E593B0372328DCD300E10163 /* DLNAControlVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E593B0302328DCD300E10163 /* DLNAControlVC.xib */; };
+		E593B0382328DCD300E10163 /* DLNAControlVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E593B0312328DCD300E10163 /* DLNAControlVC.m */; };
+		E593B0392328DCD300E10163 /* DLNASearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E593B0332328DCD300E10163 /* DLNASearchVC.m */; };
+		E593B03A2328DCD300E10163 /* MRPositionUpdateTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E593B0352328DCD300E10163 /* MRPositionUpdateTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2132B645230F08E4A05F0702 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4B92CECF5137387CE79BF30C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2132B645230F08E4A05F0702 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4B92CECF5137387CE79BF30C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KFUPnP_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFUPnP_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,12 +64,19 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6E2ACB2446A0B75CD4D7A696 /* Pods_KFUPnP_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFUPnP_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7C15F586B1E08F9D71DA2C88 /* KFUPnP.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KFUPnP.podspec; path = ../KFUPnP.podspec; sourceTree = "<group>"; };
+		7C15F586B1E08F9D71DA2C88 /* KFUPnP.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KFUPnP.podspec; path = ../KFUPnP.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8154C3986DF5BC89EB40536D /* Pods-KFUPnP_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFUPnP_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFUPnP_Example/Pods-KFUPnP_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1A260C41024D7F5D38ACBFE /* Pods-KFUPnP_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFUPnP_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFUPnP_Tests/Pods-KFUPnP_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C45023A7CA0E3DD44D2C62DF /* Pods-KFUPnP_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFUPnP_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFUPnP_Tests/Pods-KFUPnP_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D157C5566CE9B8D5CD5045C0 /* Pods_KFUPnP_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFUPnP_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E593B0302328DCD300E10163 /* DLNAControlVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLNAControlVC.xib; sourceTree = "<group>"; };
+		E593B0312328DCD300E10163 /* DLNAControlVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNAControlVC.m; sourceTree = "<group>"; };
+		E593B0322328DCD300E10163 /* MRPositionUpdateTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPositionUpdateTask.h; sourceTree = "<group>"; };
+		E593B0332328DCD300E10163 /* DLNASearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNASearchVC.m; sourceTree = "<group>"; };
+		E593B0342328DCD300E10163 /* DLNAControlVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNAControlVC.h; sourceTree = "<group>"; };
+		E593B0352328DCD300E10163 /* MRPositionUpdateTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRPositionUpdateTask.m; sourceTree = "<group>"; };
+		E593B0362328DCD300E10163 /* DLNASearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNASearchVC.h; sourceTree = "<group>"; };
 		F3A10255CBE9E2D8AD590B4D /* Pods-KFUPnP_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFUPnP_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFUPnP_Example/Pods-KFUPnP_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +159,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* KFViewController.h */,
 				6003F5A6195388D20070C39A /* KFViewController.m */,
+				E593B02F2328DCD300E10163 /* DLNA_Play */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -194,6 +206,20 @@
 				4B92CECF5137387CE79BF30C /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		E593B02F2328DCD300E10163 /* DLNA_Play */ = {
+			isa = PBXGroup;
+			children = (
+				E593B0302328DCD300E10163 /* DLNAControlVC.xib */,
+				E593B0312328DCD300E10163 /* DLNAControlVC.m */,
+				E593B0322328DCD300E10163 /* MRPositionUpdateTask.h */,
+				E593B0332328DCD300E10163 /* DLNASearchVC.m */,
+				E593B0342328DCD300E10163 /* DLNAControlVC.h */,
+				E593B0352328DCD300E10163 /* MRPositionUpdateTask.m */,
+				E593B0362328DCD300E10163 /* DLNASearchVC.h */,
+			);
+			path = DLNA_Play;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +273,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = AlbertBoy;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = SH2TS7RBHN;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -257,6 +286,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -276,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E593B0372328DCD300E10163 /* DLNAControlVC.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -325,12 +356,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KFUPnP_Example/Pods-KFUPnP_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/KFUPnP/KFUPnP.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KFUPnP.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,6 +403,9 @@
 				6003F59E195388D20070C39A /* KFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* KFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				E593B0392328DCD300E10163 /* DLNASearchVC.m in Sources */,
+				E593B0382328DCD300E10163 /* DLNAControlVC.m in Sources */,
+				E593B03A2328DCD300E10163 /* MRPositionUpdateTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +533,7 @@
 			baseConfigurationReference = 8154C3986DF5BC89EB40536D /* Pods-KFUPnP_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SH2TS7RBHN;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KFUPnP/KFUPnP-Prefix.pch";
 				INFOPLIST_FILE = "KFUPnP/KFUPnP-Info.plist";
@@ -513,6 +550,7 @@
 			baseConfigurationReference = F3A10255CBE9E2D8AD590B4D /* Pods-KFUPnP_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SH2TS7RBHN;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KFUPnP/KFUPnP-Prefix.pch";
 				INFOPLIST_FILE = "KFUPnP/KFUPnP-Info.plist";

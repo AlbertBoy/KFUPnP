@@ -8,7 +8,7 @@
 
 #import "DLNASearchVC.h"
 #import "DLNAControlVC.h"
-#import <KFDLNA/MRDLNA.h>
+#import <KFUPnP/MRDLNA.h>
 
 
 //屏幕高度

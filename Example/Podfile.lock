@@ -1,0 +1,26 @@
+PODS:
+  - CocoaAsyncSocket (7.6.3)
+  - KFUPnP (0.1.0):
+    - CocoaAsyncSocket
+    - KFUPnP/MRC (= 0.1.0)
+  - KFUPnP/MRC (0.1.0):
+    - CocoaAsyncSocket
+
+DEPENDENCIES:
+  - KFUPnP (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaAsyncSocket
+
+EXTERNAL SOURCES:
+  KFUPnP:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  KFUPnP: 48b84f3708c28e77cd1ff276e30711f465ab3aae
+
+PODFILE CHECKSUM: 5eebc6b481ca14f5f50339f64a1715ff921162ab
+
+COCOAPODS: 1.5.3

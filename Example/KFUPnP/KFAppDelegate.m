@@ -7,12 +7,16 @@
 //
 
 #import "KFAppDelegate.h"
+#import "KFViewController.h"
 
 @implementation KFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window setRootViewController:[[UINavigationController alloc] initWithRootViewController:[[KFViewController alloc] init]]];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

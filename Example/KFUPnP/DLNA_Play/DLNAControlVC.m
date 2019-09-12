@@ -7,7 +7,7 @@
 //
 
 #import "DLNAControlVC.h"
-#import <KFDLNA/MRDLNA.h>
+#import <KFUPnP/MRDLNA.h>
 #import "MRPositionUpdateTask.h"
 
 
