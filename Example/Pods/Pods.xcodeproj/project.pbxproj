@@ -7,46 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06DC867D13FDBB0FEF46A00E33E80614 /* CLUPnPAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F0A6DB9ED57012C92865FA7BBF239C /* CLUPnPAction.m */; };
-		0E6BBB945901BEDA70D06F07854CCE02 /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = B2A46AAED5EB13AE0185F18190753720 /* GDataXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1AF8C95662A19CFC4FCFF8EB4ED03D2F /* MRDLNA.m in Sources */ = {isa = PBXBuildFile; fileRef = FA847220E2FD40366CB2ED0BBAFDE848 /* MRDLNA.m */; };
-		1C7C29EAC6179B0B05ED0548069F352F /* CLUPnPDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB90CC3743EA54EAD213BCE8A88874D /* CLUPnPDevice.m */; };
-		20CE586A4BEBF5039D48E901BE656F11 /* CLUPnPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = F474C85417383B497D23F8F15148C19C /* CLUPnPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23039641CBFAFE070532B3CA6E7D9CD5 /* Pods-KFUPnP_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236714D1CFD792C693F86C083C0880C /* Pods-KFUPnP_Example-dummy.m */; };
-		302859C70CBE48D7A2399CC700A547FB /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D9393A92083DA9D32F56244F48A39 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3096E4F3E3CF869405ACD441F830A539 /* CLUPnPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A511D86ED7855146F25AA0110BB4415 /* CLUPnPAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		392626D94EC9E792D61D7A3D3F7F4F16 /* CLUPnPRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = D62BD487F8A647831928C87E5AA2E6C0 /* CLUPnPRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BCDDCBAD20763D6D55E7330643F0CAC /* Device.xml in Sources */ = {isa = PBXBuildFile; fileRef = A649B45901B9472A76F11481D4B3191D /* Device.xml */; };
-		4C5DB74C02B2B6A689771A04BF30D486 /* KFUPnP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF8E2FCD776A1592CE8B07E70FCB351 /* KFUPnP-dummy.m */; };
-		555CB0141BDFC1F63BDA608FC2F4584E /* CLUPnPDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = F24D100CE0B93158364EAFF2B4119DB9 /* CLUPnPDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D00EE22A769EA4F6052FB5E261AB3AA /* KFUPnP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E88B146565B5853F014DC59A8FF09B5E /* KFUPnP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67A34030CE6EA40690C8E89CE588949B /* MRDLNA.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D42170971ABCF5260FF87EC17EA45C /* MRDLNA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		686D50D967A568B3640066A79A2A0753 /* CLUPnPInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 929D22D2C964320241D36DAC80466813 /* CLUPnPInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		726D0E8C33E34BB4A7B2DC2D8526C3AD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14F6A444AA3DAEFC839849EC8870551 /* CFNetwork.framework */; };
-		79B562791923C8B9969AEC5ADA7586C3 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A64404F0A4CC1801E1409DF393AB248B /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8B7153F6DC009CD0178C3217E61D78B3 /* CLUPnPResponseDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6884A18AA565C8D6B639F907A1FBEB42 /* CLUPnPResponseDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CEF70B179B360814C228F4807167AF6 /* Pods-KFUPnP_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FB87354D3374B60BD184D356B96860 /* Pods-KFUPnP_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		994F8521088ED66791184F0DD54E6AA9 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9FEADCF4CF85B9DA173E3EFAB1150B2 /* CocoaAsyncSocket.framework */; };
-		995BE9CDDDDFD10773D5D190D6D3F722 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5A665204A6EB0247240DDA87819CB4 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AF463DB7D84976931E06AD7426C3361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9876B169B78CEC4A17951ECC461D5D9C /* Foundation.framework */; };
-		9DA92149A2056B503224585113773650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9876B169B78CEC4A17951ECC461D5D9C /* Foundation.framework */; };
-		9DB09945E83C2C4477EDF4E59ACFB7F8 /* CLUPnPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D62C09A12D5D67288021A969585EB9 /* CLUPnPServer.m */; };
-		9F54BDA7C0DF20C17A669F37E8E23A21 /* SetUrl.xml in Sources */ = {isa = PBXBuildFile; fileRef = 8C8174B3AB0D2819B565D5A17332A6F1 /* SetUrl.xml */; };
-		A7DEC3BDBB8A56FFAF440339A97E3D77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9876B169B78CEC4A17951ECC461D5D9C /* Foundation.framework */; };
-		A9D54D3A8FC7228E86E445B47170492A /* Pods-KFUPnP_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EB9560FAEC505325B26FF6E99CE6EA /* Pods-KFUPnP_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF35268CD70A4EF194BACE735A5D3C58 /* CLUPnPRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1063471417CFBA46C5365EBD2B5B8 /* CLUPnPRenderer.m */; };
-		B36D615B170D7E44C8132D5EFBDA6AE1 /* CLUPnPAVPositionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C23E22EE46D035008F9F06BC23B960E6 /* CLUPnPAVPositionInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B737D2F66EF279DA868874F1CE875C2C /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB942A3466EE6973331BD23E48A2239A /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE13B2DCAD07AEAC9750C48D82CAA003 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 803D5D821189A463BF2E3618AF60386C /* CocoaAsyncSocket-dummy.m */; };
-		C8B1364C49BE29F052D1CDB2E422B25F /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA293C446B580EEC70F631B729C1078 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA078E8C6DC905AE19D111EEC78836A5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E963A674D8D943CC44D36FB72747ACD5 /* Security.framework */; };
-		D6902B8B2F488651C7FADB6D86DDF73A /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A1065F78C1A1FEDFE477531554C9C792 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D8A8948277DC6671C2B20C882658B96E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9876B169B78CEC4A17951ECC461D5D9C /* Foundation.framework */; };
-		DA77806B27152B7C26001D46AF5FDDE9 /* CLUPnPAVPositionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2274C84BC2E32336D5F1A62B055CAD82 /* CLUPnPAVPositionInfo.m */; };
-		DCE5187EB7FB43C278F32622C33600A3 /* CLUPnP.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C0ECC974FC98071A6FF8310788CE18 /* CLUPnP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1A155C6FDE08FF1D70986721A0D7AC9 /* Pods-KFUPnP_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B587EFD5CFEA2E4E3E0E30FC7FD2DA0 /* Pods-KFUPnP_Tests-dummy.m */; };
-		E1BBA741FA3271C3BDE09E224676FC46 /* StopAction.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F05DDA5970BA907B4A09CC3F829EE8 /* StopAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F068E768F578DF0B9DACF4D2409F01DB /* StopAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C9F1DD1E7C46AC272EB5AF3EF9B563 /* StopAction.m */; };
+		00A5C9F82875A429D8A88AAB32E7255E /* Device.xml in Sources */ = {isa = PBXBuildFile; fileRef = 95D3B64E5E51EA32C435A9725D3BCBFD /* Device.xml */; };
+		0BD62CB1679AE52CA5D9B67AF87F750D /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F157F703F8134396B2E2D2D64ED7AC /* CocoaAsyncSocket.framework */; };
+		0EC1806437F66CC12F06DD7ACD1FBA4A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6B030D0E7DA0B32C45F2CA5EF0AF7 /* Security.framework */; };
+		14703875367641811BD5FE75ACD67C96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E484F037B807D7B1ECF003384573173D /* Foundation.framework */; };
+		198595F9119626545880FB2B5E90BAC0 /* CLUPnPAVPositionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D198955CCE55759E994D06C4E593738A /* CLUPnPAVPositionInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA0C9F2A10B3F71C2F49019EB91700E /* CLUPnP.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A953112409C524F6ED1DBE346F334F /* CLUPnP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F292B5410B16DBF60D1F47A48216622 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D9393A92083DA9D32F56244F48A39 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		20386C4BEBA1CEA6E5EDB1669B7ADD76 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C048F262F6A4130C49AD3954C4CCCD /* CFNetwork.framework */; };
+		23039641CBFAFE070532B3CA6E7D9CD5 /* Pods-KFUPnP_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495FE6E14FBDD5DAB001E47F115A8AB /* Pods-KFUPnP_Example-dummy.m */; };
+		236CE765623C99216B08F37943E50997 /* MRDLNA.m in Sources */ = {isa = PBXBuildFile; fileRef = 63905C6981C749522163099D35FFEE18 /* MRDLNA.m */; };
+		25FBDFEA78CCEB4ECA7D332E1FACB77D /* CLUPnPDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEFA31A4B16E8D90B67537D97DB214C /* CLUPnPDevice.m */; };
+		27CFA2CCD77A7E7C477EDD108C0FC743 /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ABEA7C38F9135B3AE56571CE90A1A02 /* GDataXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8773045111A5CD08ECF026E48421F3B /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A27BDE0AB8F9CBCD10AC6AB3660C696 /* CLUPnPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 364C9FDC7A432624BC9448DEFB7F5C6D /* CLUPnPServer.m */; };
+		411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5A665204A6EB0247240DDA87819CB4 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		442270A7C4B4DC0C46965F0514C9F723 /* CLUPnPAVPositionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE10A5ACF98E15FA2FAFC1EF0A641AC /* CLUPnPAVPositionInfo.m */; };
+		4632E9B7A2CCBE993A890FE7D61277FF /* CLUPnPRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8149FA70B51CB77E86303BC1FDE6BA /* CLUPnPRenderer.m */; };
+		4FEB8B477C6551B155000A6BF1F3E580 /* MRDLNA.h in Headers */ = {isa = PBXBuildFile; fileRef = 95B923EC563BE691D73CE2CCA06F89D7 /* MRDLNA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5026571E582F0FFF700E54DBBD97C6EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E484F037B807D7B1ECF003384573173D /* Foundation.framework */; };
+		644E6D1F1E28038523000452E1AC75AD /* CLUPnPResponseDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 345357DFE9E02358D8F8153DD9BD23BC /* CLUPnPResponseDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A9B7C58F6DB6CC74EB304312D28325E /* CLUPnPInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A58C21ACA0916531DDD69B8CDBF23B7 /* CLUPnPInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C237B7AA6F4A2DD17CA05EB90C83362 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BD1B356EA29219B7BDC08082938B68 /* CocoaAsyncSocket-dummy.m */; };
+		87B8E49BBDBD9CC0853204A7F1CF3ACF /* SetUrl.xml in Sources */ = {isa = PBXBuildFile; fileRef = 45032449D32DCE2E5072760E282E4F13 /* SetUrl.xml */; };
+		8B60D5379FDB7290AA9D67D9A49EA3CF /* CLUPnPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 103CBF2E789DF94CACC900D8E251DD4F /* CLUPnPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CEF70B179B360814C228F4807167AF6 /* Pods-KFUPnP_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F850037E77916551F013B6A70DA588 /* Pods-KFUPnP_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9621AE90FCD4E4A7DFB88CBFD4E296BC /* StopAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6AADE7E8CFBCD3A9C394B154D51C32 /* StopAction.m */; };
+		9AF463DB7D84976931E06AD7426C3361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E484F037B807D7B1ECF003384573173D /* Foundation.framework */; };
+		9D6D4A82D239FFECA6F48CCD7F603A72 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F93B326A5729229C577E0693D91E80D /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9F87B85B5A3D6641D078A93B45011405 /* KFUPnP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8E583F02845EE6BEF299CC808C769B /* KFUPnP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A41CA3DDD93A8995C6DB1299C49493EA /* CLUPnPAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC90DFEA5A77EE711E9C5F8BE3E599 /* CLUPnPAction.m */; };
+		A9D54D3A8FC7228E86E445B47170492A /* Pods-KFUPnP_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D0DDAEC6FC05C6392887295A553AC8 /* Pods-KFUPnP_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF0E4454B28437897BC092AE02CD0C13 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A64404F0A4CC1801E1409DF393AB248B /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C03A061410EAB6BF4731124945B89C77 /* CLUPnPDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B642C8DFCA435875E542D6709E97FB /* CLUPnPDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8A8948277DC6671C2B20C882658B96E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E484F037B807D7B1ECF003384573173D /* Foundation.framework */; };
+		DC8B7A80477573D78ED9318928FDC65F /* CLUPnPRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 037306BBED7A6FB82511D9C0A9F513FF /* CLUPnPRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA293C446B580EEC70F631B729C1078 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A155C6FDE08FF1D70986721A0D7AC9 /* Pods-KFUPnP_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EAA2DCC58AF57A73DC323A884B2DB0 /* Pods-KFUPnP_Tests-dummy.m */; };
+		F448495E69758C3260F9BB7641BA83CE /* KFUPnP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A57B6CB939669F9C66762C0255F7B8C4 /* KFUPnP-dummy.m */; };
+		F652F865438D017FA4A1755127810C6F /* CLUPnPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C7D8042EA25FFCFED9E6D6B0807506 /* CLUPnPAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD032C7D3C14D165EA4D9998F827C71C /* StopAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D3520E4FC6F09375B56A6220E36129 /* StopAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,119 +54,126 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0CE4A4861599F4BEFB7C9439CE571168;
+			remoteGlobalIDString = 61F5CAE9619BA5CF4C761A1D17F382BF;
 			remoteInfo = "Pods-KFUPnP_Example";
 		};
 		33E7C6587DC800F0CCE39A6B9B55C35A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8D30137D9A8C0A7EED7F746DB7806EBD;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
 			remoteInfo = CocoaAsyncSocket;
 		};
 		EF50DCEE5737F8265912565D6514364A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 86F4A2C1E7B87BD1007BE8C18D20159D;
+			remoteGlobalIDString = 3B0B9752A1F64F4FCD64C86E91E22285;
 			remoteInfo = KFUPnP;
 		};
 		F6C892E3AA45CE0F3C0599292BDA751B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8D30137D9A8C0A7EED7F746DB7806EBD;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
 			remoteInfo = CocoaAsyncSocket;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C2F2B07F4D94DEB838F477C3C938B24 /* KFUPnP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KFUPnP.framework; path = KFUPnP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		10A668D2E2E4635DD12AFD2558C70212 /* Pods-KFUPnP_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFUPnP_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		14BCC2C7EE4860C5ECC58D29E006F62B /* Pods-KFUPnP_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFUPnP_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1AD96D06841751A7C19DC4BF8851317E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2274C84BC2E32336D5F1A62B055CAD82 /* CLUPnPAVPositionInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLUPnPAVPositionInfo.m; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		27F0A6DB9ED57012C92865FA7BBF239C /* CLUPnPAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLUPnPAction.m; sourceTree = "<group>"; };
-		29AB9B0485D714D20DDDA6D7A3FBA63C /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
-		3236714D1CFD792C693F86C083C0880C /* Pods-KFUPnP_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KFUPnP_Example-dummy.m"; sourceTree = "<group>"; };
-		3A7897BAB0DC9FFA4EA615BA69D5AC12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		43C0ECC974FC98071A6FF8310788CE18 /* CLUPnP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLUPnP.h; sourceTree = "<group>"; };
-		48FB87354D3374B60BD184D356B96860 /* Pods-KFUPnP_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KFUPnP_Example-umbrella.h"; sourceTree = "<group>"; };
-		4A511D86ED7855146F25AA0110BB4415 /* CLUPnPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLUPnPAction.h; sourceTree = "<group>"; };
-		51C9F1DD1E7C46AC272EB5AF3EF9B563 /* StopAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = StopAction.m; sourceTree = "<group>"; };
-		527F94AB6D6CCABE7A357E7A98C1EA13 /* Pods-KFUPnP_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KFUPnP_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5814BCCC6B700E5B9ABE75FD998E09E6 /* KFUPnP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KFUPnP.modulemap; sourceTree = "<group>"; };
-		5AAD9FE83CEE4D875173CD2C405BF3D6 /* Pods-KFUPnP_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFUPnP_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5B587EFD5CFEA2E4E3E0E30FC7FD2DA0 /* Pods-KFUPnP_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KFUPnP_Tests-dummy.m"; sourceTree = "<group>"; };
-		6884A18AA565C8D6B639F907A1FBEB42 /* CLUPnPResponseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLUPnPResponseDelegate.h; sourceTree = "<group>"; };
+		037306BBED7A6FB82511D9C0A9F513FF /* CLUPnPRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLUPnPRenderer.h; sourceTree = "<group>"; };
+		0495FE6E14FBDD5DAB001E47F115A8AB /* Pods-KFUPnP_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KFUPnP_Example-dummy.m"; sourceTree = "<group>"; };
+		103CBF2E789DF94CACC900D8E251DD4F /* CLUPnPServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLUPnPServer.h; sourceTree = "<group>"; };
+		108852B3573613A7193093F37DA05462 /* Pods-KFUPnP_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFUPnP_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		114C733AF96FDE35A68662BE3D828949 /* Pods-KFUPnP_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KFUPnP_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12D2BC450C4A6B05397075508D93D9CE /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		14341579B74F8A3F0DC7FA7B6E995526 /* Pods_KFUPnP_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KFUPnP_Tests.framework; path = "Pods-KFUPnP_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BF63911C7D1D8084CDDD6DE9C49403 /* Pods-KFUPnP_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFUPnP_Example-Info.plist"; sourceTree = "<group>"; };
+		19F6B030D0E7DA0B32C45F2CA5EF0AF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		1C768C1FC0AE28328C5002B8BBE0C933 /* Pods-KFUPnP_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KFUPnP_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F6AADE7E8CFBCD3A9C394B154D51C32 /* StopAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = StopAction.m; sourceTree = "<group>"; };
+		228283F16884BC839331FB1B7EA40A70 /* Pods-KFUPnP_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFUPnP_Tests-Info.plist"; sourceTree = "<group>"; };
+		29EAA2DCC58AF57A73DC323A884B2DB0 /* Pods-KFUPnP_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KFUPnP_Tests-dummy.m"; sourceTree = "<group>"; };
+		2A58C21ACA0916531DDD69B8CDBF23B7 /* CLUPnPInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLUPnPInfo.h; sourceTree = "<group>"; };
+		2F93B326A5729229C577E0693D91E80D /* GDataXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = KFUPnP/Classes/MRC/GData/GDataXMLNode.m; sourceTree = "<group>"; };
+		30C048F262F6A4130C49AD3954C4CCCD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		345357DFE9E02358D8F8153DD9BD23BC /* CLUPnPResponseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLUPnPResponseDelegate.h; sourceTree = "<group>"; };
+		34A953112409C524F6ED1DBE346F334F /* CLUPnP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLUPnP.h; sourceTree = "<group>"; };
+		364C9FDC7A432624BC9448DEFB7F5C6D /* CLUPnPServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLUPnPServer.m; sourceTree = "<group>"; };
+		378EAA31756BD4DA1DD3E4F5DB76D742 /* KFUPnP-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KFUPnP-Info.plist"; sourceTree = "<group>"; };
+		45032449D32DCE2E5072760E282E4F13 /* SetUrl.xml */ = {isa = PBXFileReference; includeInIndex = 1; path = SetUrl.xml; sourceTree = "<group>"; };
+		4BEC90DFEA5A77EE711E9C5F8BE3E599 /* CLUPnPAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLUPnPAction.m; sourceTree = "<group>"; };
+		628DBF839494955D7592FDCE681C1F55 /* KFUPnP.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KFUPnP.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		62D3520E4FC6F09375B56A6220E36129 /* StopAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = StopAction.h; sourceTree = "<group>"; };
+		63905C6981C749522163099D35FFEE18 /* MRDLNA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRDLNA.m; path = KFUPnP/Classes/ARC/MRDLNA.m; sourceTree = "<group>"; };
+		64C846BA52226E520F4D130202E63D19 /* KFUPnP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KFUPnP.modulemap; sourceTree = "<group>"; };
+		6577932D543D5E287C74E31EFA09EBCC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D0D9393A92083DA9D32F56244F48A39 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
-		6DB90CC3743EA54EAD213BCE8A88874D /* CLUPnPDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLUPnPDevice.m; sourceTree = "<group>"; };
-		7CD70923DCC675C30499048B1A60E75F /* KFUPnP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KFUPnP.xcconfig; sourceTree = "<group>"; };
-		803D5D821189A463BF2E3618AF60386C /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
-		806E7ADDDB70B16183AE6CE35921397F /* Pods-KFUPnP_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KFUPnP_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		86D62C09A12D5D67288021A969585EB9 /* CLUPnPServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLUPnPServer.m; sourceTree = "<group>"; };
-		89159B06ED0F5F52FBA4595FA689CF3F /* Pods-KFUPnP_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFUPnP_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		8C4DDD5A90A53426B1674C3FE92F03D1 /* KFUPnP.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KFUPnP.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8C8174B3AB0D2819B565D5A17332A6F1 /* SetUrl.xml */ = {isa = PBXFileReference; includeInIndex = 1; path = SetUrl.xml; sourceTree = "<group>"; };
+		6FE10A5ACF98E15FA2FAFC1EF0A641AC /* CLUPnPAVPositionInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLUPnPAVPositionInfo.m; sourceTree = "<group>"; };
+		7334B442B83E81DC0F15DBE700728B8D /* KFUPnP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KFUPnP.framework; path = KFUPnP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B686CFAB542400135ACE0C23847EBF /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		896F610677F30B7828B5D59B10FC1B18 /* Pods-KFUPnP_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFUPnP_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8ABEA7C38F9135B3AE56571CE90A1A02 /* GDataXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = KFUPnP/Classes/MRC/GData/GDataXMLNode.h; sourceTree = "<group>"; };
+		8C3D7B53B9C98F3A4DD986B11C1FE181 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8DA293C446B580EEC70F631B729C1078 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
-		8F08CE4B1C0D7A2D9125C65662049424 /* Pods-KFUPnP_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFUPnP_Example-resources.sh"; sourceTree = "<group>"; };
-		91EB9560FAEC505325B26FF6E99CE6EA /* Pods-KFUPnP_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KFUPnP_Tests-umbrella.h"; sourceTree = "<group>"; };
-		929D22D2C964320241D36DAC80466813 /* CLUPnPInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLUPnPInfo.h; sourceTree = "<group>"; };
-		9566E2D23C6FA569FBAB644A06103D64 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9876B169B78CEC4A17951ECC461D5D9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9B83DFB5092AFA665700072A60A6653E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F93C05869EE9658F8523E30D54692CC /* Pods-KFUPnP_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KFUPnP_Tests.modulemap"; sourceTree = "<group>"; };
-		A1065F78C1A1FEDFE477531554C9C792 /* GDataXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = KFUPnP/Classes/MRC/GData/GDataXMLNode.m; sourceTree = "<group>"; };
-		A2CCB5504B9B7CF5D3A9DC5855A7F850 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B923EC563BE691D73CE2CCA06F89D7 /* MRDLNA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRDLNA.h; path = KFUPnP/Classes/ARC/MRDLNA.h; sourceTree = "<group>"; };
+		95D3B64E5E51EA32C435A9725D3BCBFD /* Device.xml */ = {isa = PBXFileReference; includeInIndex = 1; path = Device.xml; sourceTree = "<group>"; };
+		97133CC3AE2EB02AD341DD35DF4C1376 /* KFUPnP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFUPnP-prefix.pch"; sourceTree = "<group>"; };
+		98B642C8DFCA435875E542D6709E97FB /* CLUPnPDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLUPnPDevice.h; sourceTree = "<group>"; };
+		99BD1B356EA29219B7BDC08082938B68 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F8E583F02845EE6BEF299CC808C769B /* KFUPnP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFUPnP-umbrella.h"; sourceTree = "<group>"; };
+		A57B6CB939669F9C66762C0255F7B8C4 /* KFUPnP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KFUPnP-dummy.m"; sourceTree = "<group>"; };
 		A64404F0A4CC1801E1409DF393AB248B /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		A649B45901B9472A76F11481D4B3191D /* Device.xml */ = {isa = PBXFileReference; includeInIndex = 1; path = Device.xml; sourceTree = "<group>"; };
-		A7B87D1F65AC60C4A33EA721E2E2278B /* Pods-KFUPnP_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KFUPnP_Example.modulemap"; sourceTree = "<group>"; };
-		A85FBE20F468D99AB178C3AA1714533C /* Pods-KFUPnP_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFUPnP_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A73E853B6E4A1FF24441654493B080C9 /* Pods-KFUPnP_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFUPnP_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A77E26CBA101023AF83F7F4364F356BF /* KFUPnP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KFUPnP.xcconfig; sourceTree = "<group>"; };
+		A905023E6DEC0CB3ACF18BC768C59C2E /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
 		AA5A665204A6EB0247240DDA87819CB4 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		AB964AB02C4EFA5A43D03F6A27E55F91 /* Pods-KFUPnP_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFUPnP_Tests-resources.sh"; sourceTree = "<group>"; };
-		ACE91914BD0C5517A51630431681CA90 /* Pods_KFUPnP_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KFUPnP_Tests.framework; path = "Pods-KFUPnP_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2A46AAED5EB13AE0185F18190753720 /* GDataXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = KFUPnP/Classes/MRC/GData/GDataXMLNode.h; sourceTree = "<group>"; };
-		B3CA2D64A0CD359E802310CAFA726778 /* Pods-KFUPnP_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFUPnP_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B48BE7FE58D65B2E386593BF4320D206 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
-		BFF8E2FCD776A1592CE8B07E70FCB351 /* KFUPnP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KFUPnP-dummy.m"; sourceTree = "<group>"; };
-		C0F88A6E416ECCC81D24E0CEF68BA155 /* Pods-KFUPnP_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KFUPnP_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C1D42170971ABCF5260FF87EC17EA45C /* MRDLNA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRDLNA.h; path = KFUPnP/Classes/ARC/MRDLNA.h; sourceTree = "<group>"; };
-		C23E22EE46D035008F9F06BC23B960E6 /* CLUPnPAVPositionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLUPnPAVPositionInfo.h; sourceTree = "<group>"; };
-		CCBD2DF2E4B2EA8894C23E0D74BAA4D3 /* Pods_KFUPnP_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KFUPnP_Example.framework; path = "Pods-KFUPnP_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0C317D2718DD1A2362F53827B6970FF /* KFUPnP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFUPnP-prefix.pch"; sourceTree = "<group>"; };
-		D0F05DDA5970BA907B4A09CC3F829EE8 /* StopAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = StopAction.h; sourceTree = "<group>"; };
-		D62BD487F8A647831928C87E5AA2E6C0 /* CLUPnPRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLUPnPRenderer.h; sourceTree = "<group>"; };
-		DAE1063471417CFBA46C5365EBD2B5B8 /* CLUPnPRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLUPnPRenderer.m; sourceTree = "<group>"; };
-		DB942A3466EE6973331BD23E48A2239A /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
-		DF3978EBAC9999C05AF33BD2A5EC3BB6 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
-		E14F6A444AA3DAEFC839849EC8870551 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		E17B803FD8C33909D3BC53AC11845528 /* Pods-KFUPnP_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFUPnP_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E88B146565B5853F014DC59A8FF09B5E /* KFUPnP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFUPnP-umbrella.h"; sourceTree = "<group>"; };
-		E963A674D8D943CC44D36FB72747ACD5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		EA6A6E932157C98C8485BAE96A476665 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDEC2AE691904332F422A77F365CACDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F24D100CE0B93158364EAFF2B4119DB9 /* CLUPnPDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLUPnPDevice.h; sourceTree = "<group>"; };
-		F474C85417383B497D23F8F15148C19C /* CLUPnPServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLUPnPServer.h; sourceTree = "<group>"; };
-		F9FEADCF4CF85B9DA173E3EFAB1150B2 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA847220E2FD40366CB2ED0BBAFDE848 /* MRDLNA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRDLNA.m; path = KFUPnP/Classes/ARC/MRDLNA.m; sourceTree = "<group>"; };
+		B453B9145A8B3378E42840279B100797 /* Pods-KFUPnP_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KFUPnP_Example.modulemap"; sourceTree = "<group>"; };
+		B8F850037E77916551F013B6A70DA588 /* Pods-KFUPnP_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KFUPnP_Example-umbrella.h"; sourceTree = "<group>"; };
+		BB069FC17C2A1565348FA1FBF71EB6C2 /* Pods-KFUPnP_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KFUPnP_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BC31C0CB1676DB08380C62AA117F802B /* Pods-KFUPnP_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFUPnP_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BE045FA2F569AABCFD75596B886EC4B7 /* Pods-KFUPnP_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KFUPnP_Tests.modulemap"; sourceTree = "<group>"; };
+		C61CEF6195AFA36555C972A1AF06C13E /* Pods-KFUPnP_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFUPnP_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CA040A533E8C61D5AAB93549319089E3 /* Pods-KFUPnP_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KFUPnP_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D198955CCE55759E994D06C4E593738A /* CLUPnPAVPositionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLUPnPAVPositionInfo.h; sourceTree = "<group>"; };
+		D5F157F703F8134396B2E2D2D64ED7AC /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6899D2B0EDED995E3C600F2774EEE6B /* Pods_KFUPnP_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KFUPnP_Example.framework; path = "Pods-KFUPnP_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8149FA70B51CB77E86303BC1FDE6BA /* CLUPnPRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLUPnPRenderer.m; sourceTree = "<group>"; };
+		DEA17E24F689BAD69B80C9E2639F6EE9 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		E1C7D8042EA25FFCFED9E6D6B0807506 /* CLUPnPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLUPnPAction.h; sourceTree = "<group>"; };
+		E484F037B807D7B1ECF003384573173D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E8773045111A5CD08ECF026E48421F3B /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		F9D0DDAEC6FC05C6392887295A553AC8 /* Pods-KFUPnP_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KFUPnP_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FBEFA31A4B16E8D90B67537D97DB214C /* CLUPnPDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLUPnPDevice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		160EF26C734A27A9436CAB7143AF8F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20386C4BEBA1CEA6E5EDB1669B7ADD76 /* CFNetwork.framework in Frameworks */,
+				14703875367641811BD5FE75ACD67C96 /* Foundation.framework in Frameworks */,
+				0EC1806437F66CC12F06DD7ACD1FBA4A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B8E062E2B5C6F766BBB930A0C278A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD62CB1679AE52CA5D9B67AF87F750D /* CocoaAsyncSocket.framework in Frameworks */,
+				5026571E582F0FFF700E54DBBD97C6EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F3C30C5A6804B091E5B624B2A7EF532 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9AF463DB7D84976931E06AD7426C3361 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B752DDE4F2CFD2E70A0BA3E95425ABDF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				994F8521088ED66791184F0DD54E6AA9 /* CocoaAsyncSocket.framework in Frameworks */,
-				A7DEC3BDBB8A56FFAF440339A97E3D77 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,90 +185,134 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD80AC650C0B58FA73C5143FEDC09264 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				726D0E8C33E34BB4A7B2DC2D8526C3AD /* CFNetwork.framework in Frameworks */,
-				9DA92149A2056B503224585113773650 /* Foundation.framework in Frameworks */,
-				CA078E8C6DC905AE19D111EEC78836A5 /* Security.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19FF30131DC41B705DF5C080AD78088E /* iOS */ = {
+		1A3E0EE19DF23E1AD41A79EC8048EC9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E14F6A444AA3DAEFC839849EC8870551 /* CFNetwork.framework */,
-				9876B169B78CEC4A17951ECC461D5D9C /* Foundation.framework */,
-				E963A674D8D943CC44D36FB72747ACD5 /* Security.framework */,
+				D5F157F703F8134396B2E2D2D64ED7AC /* CocoaAsyncSocket.framework */,
+				8B66D2A83B3C862556E6C08280F315F2 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1FE7F58FE90446405CA86FC31C36E34F /* KFUPnP */ = {
+		1BF400E2FC86E5C808016A187B7C1F3C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C1D42170971ABCF5260FF87EC17EA45C /* MRDLNA.h */,
-				FA847220E2FD40366CB2ED0BBAFDE848 /* MRDLNA.m */,
-				D5B6252EDB50C32D909BB6325820CE92 /* DLNA */,
-				B23EDAEF0B45055FE9BFD8E039146C92 /* MRC */,
-				B72EFB03B7C0876EEA1D1783FA2D94F7 /* Pod */,
-				5AE13468E981A9A9DE101045E60A518F /* Support Files */,
+				628DBF839494955D7592FDCE681C1F55 /* KFUPnP.podspec */,
+				8C3D7B53B9C98F3A4DD986B11C1FE181 /* LICENSE */,
+				6577932D543D5E287C74E31EFA09EBCC /* README.md */,
 			);
-			name = KFUPnP;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		5AE13468E981A9A9DE101045E60A518F /* Support Files */ = {
+		4DB59D6A8DE2DA516D15CA131FEA3A9F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EA6A6E932157C98C8485BAE96A476665 /* Info.plist */,
-				5814BCCC6B700E5B9ABE75FD998E09E6 /* KFUPnP.modulemap */,
-				7CD70923DCC675C30499048B1A60E75F /* KFUPnP.xcconfig */,
-				BFF8E2FCD776A1592CE8B07E70FCB351 /* KFUPnP-dummy.m */,
-				D0C317D2718DD1A2362F53827B6970FF /* KFUPnP-prefix.pch */,
-				E88B146565B5853F014DC59A8FF09B5E /* KFUPnP-umbrella.h */,
+				8065982FF8B06E6D9C97CE60A69D52AE /* Pods-KFUPnP_Example */,
+				8867881A47852EE739A072277D78AD26 /* Pods-KFUPnP_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		780BAD83CCA85828A15E2C75D671C7DD /* MRC */ = {
+			isa = PBXGroup;
+			children = (
+				8ABEA7C38F9135B3AE56571CE90A1A02 /* GDataXMLNode.h */,
+				2F93B326A5729229C577E0693D91E80D /* GDataXMLNode.m */,
+			);
+			name = MRC;
+			sourceTree = "<group>";
+		};
+		784B6C6341DE0312AC27A94D4700FBF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64C846BA52226E520F4D130202E63D19 /* KFUPnP.modulemap */,
+				A77E26CBA101023AF83F7F4364F356BF /* KFUPnP.xcconfig */,
+				A57B6CB939669F9C66762C0255F7B8C4 /* KFUPnP-dummy.m */,
+				378EAA31756BD4DA1DD3E4F5DB76D742 /* KFUPnP-Info.plist */,
+				97133CC3AE2EB02AD341DD35DF4C1376 /* KFUPnP-prefix.pch */,
+				9F8E583F02845EE6BEF299CC808C769B /* KFUPnP-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/KFUPnP";
 			sourceTree = "<group>";
 		};
-		6C5279427BAC7A042335C4AC567FAE0D /* Pods-KFUPnP_Tests */ = {
+		8065982FF8B06E6D9C97CE60A69D52AE /* Pods-KFUPnP_Example */ = {
 			isa = PBXGroup;
 			children = (
-				A2CCB5504B9B7CF5D3A9DC5855A7F850 /* Info.plist */,
-				9F93C05869EE9658F8523E30D54692CC /* Pods-KFUPnP_Tests.modulemap */,
-				806E7ADDDB70B16183AE6CE35921397F /* Pods-KFUPnP_Tests-acknowledgements.markdown */,
-				C0F88A6E416ECCC81D24E0CEF68BA155 /* Pods-KFUPnP_Tests-acknowledgements.plist */,
-				5B587EFD5CFEA2E4E3E0E30FC7FD2DA0 /* Pods-KFUPnP_Tests-dummy.m */,
-				89159B06ED0F5F52FBA4595FA689CF3F /* Pods-KFUPnP_Tests-frameworks.sh */,
-				AB964AB02C4EFA5A43D03F6A27E55F91 /* Pods-KFUPnP_Tests-resources.sh */,
-				91EB9560FAEC505325B26FF6E99CE6EA /* Pods-KFUPnP_Tests-umbrella.h */,
-				A85FBE20F468D99AB178C3AA1714533C /* Pods-KFUPnP_Tests.debug.xcconfig */,
-				10A668D2E2E4635DD12AFD2558C70212 /* Pods-KFUPnP_Tests.release.xcconfig */,
+				B453B9145A8B3378E42840279B100797 /* Pods-KFUPnP_Example.modulemap */,
+				114C733AF96FDE35A68662BE3D828949 /* Pods-KFUPnP_Example-acknowledgements.markdown */,
+				108852B3573613A7193093F37DA05462 /* Pods-KFUPnP_Example-acknowledgements.plist */,
+				0495FE6E14FBDD5DAB001E47F115A8AB /* Pods-KFUPnP_Example-dummy.m */,
+				BB069FC17C2A1565348FA1FBF71EB6C2 /* Pods-KFUPnP_Example-frameworks.sh */,
+				17BF63911C7D1D8084CDDD6DE9C49403 /* Pods-KFUPnP_Example-Info.plist */,
+				B8F850037E77916551F013B6A70DA588 /* Pods-KFUPnP_Example-umbrella.h */,
+				BC31C0CB1676DB08380C62AA117F802B /* Pods-KFUPnP_Example.debug.xcconfig */,
+				896F610677F30B7828B5D59B10FC1B18 /* Pods-KFUPnP_Example.release.xcconfig */,
 			);
-			name = "Pods-KFUPnP_Tests";
-			path = "Target Support Files/Pods-KFUPnP_Tests";
-			sourceTree = "<group>";
-		};
-		7EC9E25B0E05BC0D8E3351FD5B1D87B2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F9FEADCF4CF85B9DA173E3EFAB1150B2 /* CocoaAsyncSocket.framework */,
-				19FF30131DC41B705DF5C080AD78088E /* iOS */,
-			);
-			name = Frameworks;
+			name = "Pods-KFUPnP_Example";
+			path = "Target Support Files/Pods-KFUPnP_Example";
 			sourceTree = "<group>";
 		};
 		8315905026E54B771580FCDAD5650B7D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1FE7F58FE90446405CA86FC31C36E34F /* KFUPnP */,
+				DA4D192428559129BEEC68382FED7671 /* KFUPnP */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8340520B6EED08EAE4FFDB33B8397AF7 /* DLNA */ = {
+			isa = PBXGroup;
+			children = (
+				34A953112409C524F6ED1DBE346F334F /* CLUPnP.h */,
+				E1C7D8042EA25FFCFED9E6D6B0807506 /* CLUPnPAction.h */,
+				4BEC90DFEA5A77EE711E9C5F8BE3E599 /* CLUPnPAction.m */,
+				D198955CCE55759E994D06C4E593738A /* CLUPnPAVPositionInfo.h */,
+				6FE10A5ACF98E15FA2FAFC1EF0A641AC /* CLUPnPAVPositionInfo.m */,
+				98B642C8DFCA435875E542D6709E97FB /* CLUPnPDevice.h */,
+				FBEFA31A4B16E8D90B67537D97DB214C /* CLUPnPDevice.m */,
+				2A58C21ACA0916531DDD69B8CDBF23B7 /* CLUPnPInfo.h */,
+				037306BBED7A6FB82511D9C0A9F513FF /* CLUPnPRenderer.h */,
+				DE8149FA70B51CB77E86303BC1FDE6BA /* CLUPnPRenderer.m */,
+				345357DFE9E02358D8F8153DD9BD23BC /* CLUPnPResponseDelegate.h */,
+				103CBF2E789DF94CACC900D8E251DD4F /* CLUPnPServer.h */,
+				364C9FDC7A432624BC9448DEFB7F5C6D /* CLUPnPServer.m */,
+				95D3B64E5E51EA32C435A9725D3BCBFD /* Device.xml */,
+				45032449D32DCE2E5072760E282E4F13 /* SetUrl.xml */,
+				62D3520E4FC6F09375B56A6220E36129 /* StopAction.h */,
+				1F6AADE7E8CFBCD3A9C394B154D51C32 /* StopAction.m */,
+			);
+			name = DLNA;
+			path = KFUPnP/Classes/ARC/DLNA;
+			sourceTree = "<group>";
+		};
+		8867881A47852EE739A072277D78AD26 /* Pods-KFUPnP_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BE045FA2F569AABCFD75596B886EC4B7 /* Pods-KFUPnP_Tests.modulemap */,
+				1C768C1FC0AE28328C5002B8BBE0C933 /* Pods-KFUPnP_Tests-acknowledgements.markdown */,
+				A73E853B6E4A1FF24441654493B080C9 /* Pods-KFUPnP_Tests-acknowledgements.plist */,
+				29EAA2DCC58AF57A73DC323A884B2DB0 /* Pods-KFUPnP_Tests-dummy.m */,
+				228283F16884BC839331FB1B7EA40A70 /* Pods-KFUPnP_Tests-Info.plist */,
+				F9D0DDAEC6FC05C6392887295A553AC8 /* Pods-KFUPnP_Tests-umbrella.h */,
+				CA040A533E8C61D5AAB93549319089E3 /* Pods-KFUPnP_Tests.debug.xcconfig */,
+				C61CEF6195AFA36555C972A1AF06C13E /* Pods-KFUPnP_Tests.release.xcconfig */,
+			);
+			name = "Pods-KFUPnP_Tests";
+			path = "Target Support Files/Pods-KFUPnP_Tests";
+			sourceTree = "<group>";
+		};
+		8B66D2A83B3C862556E6C08280F315F2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				30C048F262F6A4130C49AD3954C4CCCD /* CFNetwork.framework */,
+				E484F037B807D7B1ECF003384573173D /* Foundation.framework */,
+				19F6B030D0E7DA0B32C45F2CA5EF0AF7 /* Security.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		A49791B92A7781B859EAEEF581EE6D8B /* CocoaAsyncSocket */ = {
@@ -271,29 +322,24 @@
 				6D0D9393A92083DA9D32F56244F48A39 /* GCDAsyncSocket.m */,
 				AA5A665204A6EB0247240DDA87819CB4 /* GCDAsyncUdpSocket.h */,
 				A64404F0A4CC1801E1409DF393AB248B /* GCDAsyncUdpSocket.m */,
-				F678123EA78F7586C3E186D0DF0E0840 /* Support Files */,
+				B862B4264C2F1D9F87C12772C46C54AE /* Support Files */,
 			);
 			name = CocoaAsyncSocket;
 			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
-		B23EDAEF0B45055FE9BFD8E039146C92 /* MRC */ = {
+		B862B4264C2F1D9F87C12772C46C54AE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B2A46AAED5EB13AE0185F18190753720 /* GDataXMLNode.h */,
-				A1065F78C1A1FEDFE477531554C9C792 /* GDataXMLNode.m */,
+				12D2BC450C4A6B05397075508D93D9CE /* CocoaAsyncSocket.modulemap */,
+				85B686CFAB542400135ACE0C23847EBF /* CocoaAsyncSocket.xcconfig */,
+				99BD1B356EA29219B7BDC08082938B68 /* CocoaAsyncSocket-dummy.m */,
+				DEA17E24F689BAD69B80C9E2639F6EE9 /* CocoaAsyncSocket-Info.plist */,
+				A905023E6DEC0CB3ACF18BC768C59C2E /* CocoaAsyncSocket-prefix.pch */,
+				E8773045111A5CD08ECF026E48421F3B /* CocoaAsyncSocket-umbrella.h */,
 			);
-			name = MRC;
-			sourceTree = "<group>";
-		};
-		B72EFB03B7C0876EEA1D1783FA2D94F7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8C4DDD5A90A53426B1674C3FE92F03D1 /* KFUPnP.podspec */,
-				3A7897BAB0DC9FFA4EA615BA69D5AC12 /* LICENSE */,
-				1AD96D06841751A7C19DC4BF8851317E /* README.md */,
-			);
-			name = Pod;
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
 			sourceTree = "<group>";
 		};
 		BB2BDAA8DB999C491DAC5EAE1CFDC78F /* Pods */ = {
@@ -307,88 +353,36 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				8315905026E54B771580FCDAD5650B7D /* Development Pods */,
-				7EC9E25B0E05BC0D8E3351FD5B1D87B2 /* Frameworks */,
+				1A3E0EE19DF23E1AD41A79EC8048EC9E /* Frameworks */,
 				BB2BDAA8DB999C491DAC5EAE1CFDC78F /* Pods */,
 				FF751DB1B8C200D27E510A7588024044 /* Products */,
-				E58C5BDF6702D49C8C3E0AD74EAE5FBD /* Targets Support Files */,
+				4DB59D6A8DE2DA516D15CA131FEA3A9F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D5B6252EDB50C32D909BB6325820CE92 /* DLNA */ = {
+		DA4D192428559129BEEC68382FED7671 /* KFUPnP */ = {
 			isa = PBXGroup;
 			children = (
-				43C0ECC974FC98071A6FF8310788CE18 /* CLUPnP.h */,
-				4A511D86ED7855146F25AA0110BB4415 /* CLUPnPAction.h */,
-				27F0A6DB9ED57012C92865FA7BBF239C /* CLUPnPAction.m */,
-				C23E22EE46D035008F9F06BC23B960E6 /* CLUPnPAVPositionInfo.h */,
-				2274C84BC2E32336D5F1A62B055CAD82 /* CLUPnPAVPositionInfo.m */,
-				F24D100CE0B93158364EAFF2B4119DB9 /* CLUPnPDevice.h */,
-				6DB90CC3743EA54EAD213BCE8A88874D /* CLUPnPDevice.m */,
-				929D22D2C964320241D36DAC80466813 /* CLUPnPInfo.h */,
-				D62BD487F8A647831928C87E5AA2E6C0 /* CLUPnPRenderer.h */,
-				DAE1063471417CFBA46C5365EBD2B5B8 /* CLUPnPRenderer.m */,
-				6884A18AA565C8D6B639F907A1FBEB42 /* CLUPnPResponseDelegate.h */,
-				F474C85417383B497D23F8F15148C19C /* CLUPnPServer.h */,
-				86D62C09A12D5D67288021A969585EB9 /* CLUPnPServer.m */,
-				A649B45901B9472A76F11481D4B3191D /* Device.xml */,
-				8C8174B3AB0D2819B565D5A17332A6F1 /* SetUrl.xml */,
-				D0F05DDA5970BA907B4A09CC3F829EE8 /* StopAction.h */,
-				51C9F1DD1E7C46AC272EB5AF3EF9B563 /* StopAction.m */,
+				95B923EC563BE691D73CE2CCA06F89D7 /* MRDLNA.h */,
+				63905C6981C749522163099D35FFEE18 /* MRDLNA.m */,
+				8340520B6EED08EAE4FFDB33B8397AF7 /* DLNA */,
+				780BAD83CCA85828A15E2C75D671C7DD /* MRC */,
+				1BF400E2FC86E5C808016A187B7C1F3C /* Pod */,
+				784B6C6341DE0312AC27A94D4700FBF8 /* Support Files */,
 			);
-			name = DLNA;
-			path = KFUPnP/Classes/ARC/DLNA;
-			sourceTree = "<group>";
-		};
-		E58C5BDF6702D49C8C3E0AD74EAE5FBD /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FCEE58F39D31D7DC44B3F7357027963C /* Pods-KFUPnP_Example */,
-				6C5279427BAC7A042335C4AC567FAE0D /* Pods-KFUPnP_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F678123EA78F7586C3E186D0DF0E0840 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DF3978EBAC9999C05AF33BD2A5EC3BB6 /* CocoaAsyncSocket.modulemap */,
-				29AB9B0485D714D20DDDA6D7A3FBA63C /* CocoaAsyncSocket.xcconfig */,
-				803D5D821189A463BF2E3618AF60386C /* CocoaAsyncSocket-dummy.m */,
-				B48BE7FE58D65B2E386593BF4320D206 /* CocoaAsyncSocket-prefix.pch */,
-				DB942A3466EE6973331BD23E48A2239A /* CocoaAsyncSocket-umbrella.h */,
-				9B83DFB5092AFA665700072A60A6653E /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CocoaAsyncSocket";
-			sourceTree = "<group>";
-		};
-		FCEE58F39D31D7DC44B3F7357027963C /* Pods-KFUPnP_Example */ = {
-			isa = PBXGroup;
-			children = (
-				EDEC2AE691904332F422A77F365CACDC /* Info.plist */,
-				A7B87D1F65AC60C4A33EA721E2E2278B /* Pods-KFUPnP_Example.modulemap */,
-				527F94AB6D6CCABE7A357E7A98C1EA13 /* Pods-KFUPnP_Example-acknowledgements.markdown */,
-				B3CA2D64A0CD359E802310CAFA726778 /* Pods-KFUPnP_Example-acknowledgements.plist */,
-				3236714D1CFD792C693F86C083C0880C /* Pods-KFUPnP_Example-dummy.m */,
-				14BCC2C7EE4860C5ECC58D29E006F62B /* Pods-KFUPnP_Example-frameworks.sh */,
-				8F08CE4B1C0D7A2D9125C65662049424 /* Pods-KFUPnP_Example-resources.sh */,
-				48FB87354D3374B60BD184D356B96860 /* Pods-KFUPnP_Example-umbrella.h */,
-				5AAD9FE83CEE4D875173CD2C405BF3D6 /* Pods-KFUPnP_Example.debug.xcconfig */,
-				E17B803FD8C33909D3BC53AC11845528 /* Pods-KFUPnP_Example.release.xcconfig */,
-			);
-			name = "Pods-KFUPnP_Example";
-			path = "Target Support Files/Pods-KFUPnP_Example";
+			name = KFUPnP;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		FF751DB1B8C200D27E510A7588024044 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9566E2D23C6FA569FBAB644A06103D64 /* CocoaAsyncSocket.framework */,
-				0C2F2B07F4D94DEB838F477C3C938B24 /* KFUPnP.framework */,
-				CCBD2DF2E4B2EA8894C23E0D74BAA4D3 /* Pods_KFUPnP_Example.framework */,
-				ACE91914BD0C5517A51630431681CA90 /* Pods_KFUPnP_Tests.framework */,
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */,
+				7334B442B83E81DC0F15DBE700728B8D /* KFUPnP.framework */,
+				D6899D2B0EDED995E3C600F2774EEE6B /* Pods_KFUPnP_Example.framework */,
+				14341579B74F8A3F0DC7FA7B6E995526 /* Pods_KFUPnP_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -404,25 +398,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5270614C4D6CEA0995C7FC4F8F9EE20E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCE5187EB7FB43C278F32622C33600A3 /* CLUPnP.h in Headers */,
-				3096E4F3E3CF869405ACD441F830A539 /* CLUPnPAction.h in Headers */,
-				B36D615B170D7E44C8132D5EFBDA6AE1 /* CLUPnPAVPositionInfo.h in Headers */,
-				555CB0141BDFC1F63BDA608FC2F4584E /* CLUPnPDevice.h in Headers */,
-				686D50D967A568B3640066A79A2A0753 /* CLUPnPInfo.h in Headers */,
-				392626D94EC9E792D61D7A3D3F7F4F16 /* CLUPnPRenderer.h in Headers */,
-				8B7153F6DC009CD0178C3217E61D78B3 /* CLUPnPResponseDelegate.h in Headers */,
-				20CE586A4BEBF5039D48E901BE656F11 /* CLUPnPServer.h in Headers */,
-				0E6BBB945901BEDA70D06F07854CCE02 /* GDataXMLNode.h in Headers */,
-				5D00EE22A769EA4F6052FB5E261AB3AA /* KFUPnP-umbrella.h in Headers */,
-				67A34030CE6EA40690C8E89CE588949B /* MRDLNA.h in Headers */,
-				E1BBA741FA3271C3BDE09E224676FC46 /* StopAction.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		711713C6D26878608CD6784035E0EADD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,20 +406,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F26E7EEA696983A99867859DB406CB30 /* Headers */ = {
+		C2A594AB0AC8F993101AC42E4730C83A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B737D2F66EF279DA868874F1CE875C2C /* CocoaAsyncSocket-umbrella.h in Headers */,
-				C8B1364C49BE29F052D1CDB2E422B25F /* GCDAsyncSocket.h in Headers */,
-				995BE9CDDDDFD10773D5D190D6D3F722 /* GCDAsyncUdpSocket.h in Headers */,
+				1EA0C9F2A10B3F71C2F49019EB91700E /* CLUPnP.h in Headers */,
+				F652F865438D017FA4A1755127810C6F /* CLUPnPAction.h in Headers */,
+				198595F9119626545880FB2B5E90BAC0 /* CLUPnPAVPositionInfo.h in Headers */,
+				C03A061410EAB6BF4731124945B89C77 /* CLUPnPDevice.h in Headers */,
+				6A9B7C58F6DB6CC74EB304312D28325E /* CLUPnPInfo.h in Headers */,
+				DC8B7A80477573D78ED9318928FDC65F /* CLUPnPRenderer.h in Headers */,
+				644E6D1F1E28038523000452E1AC75AD /* CLUPnPResponseDelegate.h in Headers */,
+				8B60D5379FDB7290AA9D67D9A49EA3CF /* CLUPnPServer.h in Headers */,
+				27CFA2CCD77A7E7C477EDD108C0FC743 /* GDataXMLNode.h in Headers */,
+				9F87B85B5A3D6641D078A93B45011405 /* KFUPnP-umbrella.h in Headers */,
+				4FEB8B477C6551B155000A6BF1F3E580 /* MRDLNA.h in Headers */,
+				FD032C7D3C14D165EA4D9998F827C71C /* StopAction.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F82807D639FCFDF56A607D3970098A87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */,
+				DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */,
+				411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0CE4A4861599F4BEFB7C9439CE571168 /* Pods-KFUPnP_Example */ = {
+		3B0B9752A1F64F4FCD64C86E91E22285 /* KFUPnP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9EA624C207E099B38ADEF02042CE80D /* Build configuration list for PBXNativeTarget "KFUPnP" */;
+			buildPhases = (
+				C2A594AB0AC8F993101AC42E4730C83A /* Headers */,
+				0FD735033B7321BC7F31D177EB75D5A9 /* Sources */,
+				29B8E062E2B5C6F766BBB930A0C278A3 /* Frameworks */,
+				434234CB522230E93C655C12C4F79319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C440D374D53B93829D59F089E882ED14 /* PBXTargetDependency */,
+			);
+			name = KFUPnP;
+			productName = KFUPnP;
+			productReference = 7334B442B83E81DC0F15DBE700728B8D /* KFUPnP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B2BBD8991DD61ACE6737AADB85AB43 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				F82807D639FCFDF56A607D3970098A87 /* Headers */,
+				398D9830C2C4A6872C9EEC588214E124 /* Sources */,
+				160EF26C734A27A9436CAB7143AF8F15 /* Frameworks */,
+				B7B5EDC45A81FF70431CFBFB2ABDFFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61F5CAE9619BA5CF4C761A1D17F382BF /* Pods-KFUPnP_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD429E45593FA167E85CE564653C39CD /* Build configuration list for PBXNativeTarget "Pods-KFUPnP_Example" */;
 			buildPhases = (
@@ -461,47 +492,10 @@
 			);
 			name = "Pods-KFUPnP_Example";
 			productName = "Pods-KFUPnP_Example";
-			productReference = CCBD2DF2E4B2EA8894C23E0D74BAA4D3 /* Pods_KFUPnP_Example.framework */;
+			productReference = D6899D2B0EDED995E3C600F2774EEE6B /* Pods_KFUPnP_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		86F4A2C1E7B87BD1007BE8C18D20159D /* KFUPnP */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F9EA624C207E099B38ADEF02042CE80D /* Build configuration list for PBXNativeTarget "KFUPnP" */;
-			buildPhases = (
-				5270614C4D6CEA0995C7FC4F8F9EE20E /* Headers */,
-				E6092DE25DAAA0EC60CEBAA11E449C43 /* Sources */,
-				B752DDE4F2CFD2E70A0BA3E95425ABDF /* Frameworks */,
-				434234CB522230E93C655C12C4F79319 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C440D374D53B93829D59F089E882ED14 /* PBXTargetDependency */,
-			);
-			name = KFUPnP;
-			productName = KFUPnP;
-			productReference = 0C2F2B07F4D94DEB838F477C3C938B24 /* KFUPnP.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8D30137D9A8C0A7EED7F746DB7806EBD /* CocoaAsyncSocket */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65B2BBD8991DD61ACE6737AADB85AB43 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
-			buildPhases = (
-				F26E7EEA696983A99867859DB406CB30 /* Headers */,
-				3DC79940B4891B59C381B15E590980DF /* Sources */,
-				FD80AC650C0B58FA73C5143FEDC09264 /* Frameworks */,
-				B7B5EDC45A81FF70431CFBFB2ABDFFEB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CocoaAsyncSocket;
-			productName = CocoaAsyncSocket;
-			productReference = 9566E2D23C6FA569FBAB644A06103D64 /* CocoaAsyncSocket.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		93C98BC726C5839E7753F942756ECFD7 /* Pods-KFUPnP_Tests */ = {
+		6CF2BDE69A07B1053DC4EE3A2D4501ED /* Pods-KFUPnP_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF19B5E704C693A2C9F5E37D33213997 /* Build configuration list for PBXNativeTarget "Pods-KFUPnP_Tests" */;
 			buildPhases = (
@@ -517,7 +511,7 @@
 			);
 			name = "Pods-KFUPnP_Tests";
 			productName = "Pods-KFUPnP_Tests";
-			productReference = ACE91914BD0C5517A51630431681CA90 /* Pods_KFUPnP_Tests.framework */;
+			productReference = 14341579B74F8A3F0DC7FA7B6E995526 /* Pods_KFUPnP_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -541,10 +535,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D30137D9A8C0A7EED7F746DB7806EBD /* CocoaAsyncSocket */,
-				86F4A2C1E7B87BD1007BE8C18D20159D /* KFUPnP */,
-				0CE4A4861599F4BEFB7C9439CE571168 /* Pods-KFUPnP_Example */,
-				93C98BC726C5839E7753F942756ECFD7 /* Pods-KFUPnP_Tests */,
+				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
+				3B0B9752A1F64F4FCD64C86E91E22285 /* KFUPnP */,
+				61F5CAE9619BA5CF4C761A1D17F382BF /* Pods-KFUPnP_Example */,
+				6CF2BDE69A07B1053DC4EE3A2D4501ED /* Pods-KFUPnP_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -581,6 +575,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0FD735033B7321BC7F31D177EB75D5A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41CA3DDD93A8995C6DB1299C49493EA /* CLUPnPAction.m in Sources */,
+				442270A7C4B4DC0C46965F0514C9F723 /* CLUPnPAVPositionInfo.m in Sources */,
+				25FBDFEA78CCEB4ECA7D332E1FACB77D /* CLUPnPDevice.m in Sources */,
+				4632E9B7A2CCBE993A890FE7D61277FF /* CLUPnPRenderer.m in Sources */,
+				3A27BDE0AB8F9CBCD10AC6AB3660C696 /* CLUPnPServer.m in Sources */,
+				00A5C9F82875A429D8A88AAB32E7255E /* Device.xml in Sources */,
+				9D6D4A82D239FFECA6F48CCD7F603A72 /* GDataXMLNode.m in Sources */,
+				F448495E69758C3260F9BB7641BA83CE /* KFUPnP-dummy.m in Sources */,
+				236CE765623C99216B08F37943E50997 /* MRDLNA.m in Sources */,
+				87B8E49BBDBD9CC0853204A7F1CF3ACF /* SetUrl.xml in Sources */,
+				9621AE90FCD4E4A7DFB88CBFD4E296BC /* StopAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B03DF45FAC7492D8C524F22B4F03DCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -589,13 +601,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DC79940B4891B59C381B15E590980DF /* Sources */ = {
+		398D9830C2C4A6872C9EEC588214E124 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE13B2DCAD07AEAC9750C48D82CAA003 /* CocoaAsyncSocket-dummy.m in Sources */,
-				302859C70CBE48D7A2399CC700A547FB /* GCDAsyncSocket.m in Sources */,
-				79B562791923C8B9969AEC5ADA7586C3 /* GCDAsyncUdpSocket.m in Sources */,
+				6C237B7AA6F4A2DD17CA05EB90C83362 /* CocoaAsyncSocket-dummy.m in Sources */,
+				1F292B5410B16DBF60D1F47A48216622 /* GCDAsyncSocket.m in Sources */,
+				BF0E4454B28437897BC092AE02CD0C13 /* GCDAsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,87 +619,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6092DE25DAAA0EC60CEBAA11E449C43 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06DC867D13FDBB0FEF46A00E33E80614 /* CLUPnPAction.m in Sources */,
-				DA77806B27152B7C26001D46AF5FDDE9 /* CLUPnPAVPositionInfo.m in Sources */,
-				1C7C29EAC6179B0B05ED0548069F352F /* CLUPnPDevice.m in Sources */,
-				AF35268CD70A4EF194BACE735A5D3C58 /* CLUPnPRenderer.m in Sources */,
-				9DB09945E83C2C4477EDF4E59ACFB7F8 /* CLUPnPServer.m in Sources */,
-				4BCDDCBAD20763D6D55E7330643F0CAC /* Device.xml in Sources */,
-				D6902B8B2F488651C7FADB6D86DDF73A /* GDataXMLNode.m in Sources */,
-				4C5DB74C02B2B6A689771A04BF30D486 /* KFUPnP-dummy.m in Sources */,
-				1AF8C95662A19CFC4FCFF8EB4ED03D2F /* MRDLNA.m in Sources */,
-				9F54BDA7C0DF20C17A669F37E8E23A21 /* SetUrl.xml in Sources */,
-				F068E768F578DF0B9DACF4D2409F01DB /* StopAction.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		BA685F7B8EF70389E630EA3E8249FB94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KFUPnP;
-			target = 86F4A2C1E7B87BD1007BE8C18D20159D /* KFUPnP */;
+			target = 3B0B9752A1F64F4FCD64C86E91E22285 /* KFUPnP */;
 			targetProxy = EF50DCEE5737F8265912565D6514364A /* PBXContainerItemProxy */;
 		};
 		C440D374D53B93829D59F089E882ED14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaAsyncSocket;
-			target = 8D30137D9A8C0A7EED7F746DB7806EBD /* CocoaAsyncSocket */;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
 			targetProxy = F6C892E3AA45CE0F3C0599292BDA751B /* PBXContainerItemProxy */;
 		};
 		F73C1A44202CF6B8D2EF84A9D4A9C2FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KFUPnP_Example";
-			target = 0CE4A4861599F4BEFB7C9439CE571168 /* Pods-KFUPnP_Example */;
+			target = 61F5CAE9619BA5CF4C761A1D17F382BF /* Pods-KFUPnP_Example */;
 			targetProxy = 0B36DC8387E4EC97AC70A882B029CB19 /* PBXContainerItemProxy */;
 		};
 		F7F7306A558181DADB21155BA7B1D9D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaAsyncSocket;
-			target = 8D30137D9A8C0A7EED7F746DB7806EBD /* CocoaAsyncSocket */;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
 			targetProxy = 33E7C6587DC800F0CCE39A6B9B55C35A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A60B016DB1F09556558D157C34C1AED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CD70923DCC675C30499048B1A60E75F /* KFUPnP.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KFUPnP/KFUPnP-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KFUPnP/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KFUPnP/KFUPnP.modulemap";
-				PRODUCT_MODULE_NAME = KFUPnP;
-				PRODUCT_NAME = KFUPnP;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3E1E8F4C5B356DDEEC76DDFDC606DC85 /* Release */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -719,8 +681,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -749,9 +709,9 @@
 			};
 			name = Release;
 		};
-		4793B2902D3B388A2C863E087B9D6CAD /* Release */ = {
+		682DE4C2DE8F51D3FFDFE2219378B935 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29AB9B0485D714D20DDDA6D7A3FBA63C /* CocoaAsyncSocket.xcconfig */;
+			baseConfigurationReference = 85B686CFAB542400135ACE0C23847EBF /* CocoaAsyncSocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -763,7 +723,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -781,9 +741,9 @@
 			};
 			name = Release;
 		};
-		49B7C47F26B00C17E9438AB4EB89E710 /* Release */ = {
+		690C77F7F1255C67B48ADC0112CEC8F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E17B803FD8C33909D3BC53AC11845528 /* Pods-KFUPnP_Example.release.xcconfig */;
+			baseConfigurationReference = BC31C0CB1676DB08380C62AA117F802B /* Pods-KFUPnP_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -795,7 +755,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KFUPnP_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-KFUPnP_Example/Pods-KFUPnP_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -809,13 +769,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		62780A8B4B44B3DFA98345371325579F /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -847,8 +806,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -881,9 +838,9 @@
 			};
 			name = Debug;
 		};
-		A021B01DB19CB002FE4B390FADD8480B /* Debug */ = {
+		930F62581382D989DE3E68CA1A3DB361 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CD70923DCC675C30499048B1A60E75F /* KFUPnP.xcconfig */;
+			baseConfigurationReference = A77E26CBA101023AF83F7F4364F356BF /* KFUPnP.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -895,7 +852,72 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/KFUPnP/KFUPnP-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KFUPnP/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/KFUPnP/KFUPnP-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KFUPnP/KFUPnP.modulemap";
+				PRODUCT_MODULE_NAME = KFUPnP;
+				PRODUCT_NAME = KFUPnP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93978C565295DD50053B3EF3DBCF2ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA040A533E8C61D5AAB93549319089E3 /* Pods-KFUPnP_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KFUPnP_Tests/Pods-KFUPnP_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KFUPnP_Tests/Pods-KFUPnP_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F07CAB9FBF3703DFBCADAD21677042F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A77E26CBA101023AF83F7F4364F356BF /* KFUPnP.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KFUPnP/KFUPnP-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KFUPnP/KFUPnP-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -912,9 +934,9 @@
 			};
 			name = Debug;
 		};
-		A24E37691C9F56553F8CB3754DB65EA6 /* Release */ = {
+		BB79F2312A4F9D23BBD542945B0FDA03 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10A668D2E2E4635DD12AFD2558C70212 /* Pods-KFUPnP_Tests.release.xcconfig */;
+			baseConfigurationReference = C61CEF6195AFA36555C972A1AF06C13E /* Pods-KFUPnP_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -926,7 +948,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KFUPnP_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-KFUPnP_Tests/Pods-KFUPnP_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -946,42 +968,9 @@
 			};
 			name = Release;
 		};
-		C802FFF3AEAB3324170D82C88CB3F137 /* Debug */ = {
+		DC54AB23DE82580B5A0147FBD1875882 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A85FBE20F468D99AB178C3AA1714533C /* Pods-KFUPnP_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KFUPnP_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KFUPnP_Tests/Pods-KFUPnP_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EF3898F375D2823B8285DEB3CBC091DE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29AB9B0485D714D20DDDA6D7A3FBA63C /* CocoaAsyncSocket.xcconfig */;
+			baseConfigurationReference = 85B686CFAB542400135ACE0C23847EBF /* CocoaAsyncSocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -993,7 +982,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1010,9 +999,9 @@
 			};
 			name = Debug;
 		};
-		F33FE4F9409AB744EBB1FE0A24A596D0 /* Debug */ = {
+		EBE02878A28CB9987DFE32CD28ABF9B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AAD9FE83CEE4D875173CD2C405BF3D6 /* Pods-KFUPnP_Example.debug.xcconfig */;
+			baseConfigurationReference = 896F610677F30B7828B5D59B10FC1B18 /* Pods-KFUPnP_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1024,7 +1013,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KFUPnP_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-KFUPnP_Example/Pods-KFUPnP_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1038,10 +1027,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1049,8 +1039,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62780A8B4B44B3DFA98345371325579F /* Debug */,
-				3E1E8F4C5B356DDEEC76DDFDC606DC85 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1058,8 +1048,8 @@
 		65B2BBD8991DD61ACE6737AADB85AB43 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF3898F375D2823B8285DEB3CBC091DE /* Debug */,
-				4793B2902D3B388A2C863E087B9D6CAD /* Release */,
+				DC54AB23DE82580B5A0147FBD1875882 /* Debug */,
+				682DE4C2DE8F51D3FFDFE2219378B935 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1067,8 +1057,8 @@
 		BD429E45593FA167E85CE564653C39CD /* Build configuration list for PBXNativeTarget "Pods-KFUPnP_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F33FE4F9409AB744EBB1FE0A24A596D0 /* Debug */,
-				49B7C47F26B00C17E9438AB4EB89E710 /* Release */,
+				690C77F7F1255C67B48ADC0112CEC8F4 /* Debug */,
+				EBE02878A28CB9987DFE32CD28ABF9B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1076,8 +1066,8 @@
 		F9EA624C207E099B38ADEF02042CE80D /* Build configuration list for PBXNativeTarget "KFUPnP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A021B01DB19CB002FE4B390FADD8480B /* Debug */,
-				0A60B016DB1F09556558D157C34C1AED /* Release */,
+				9F07CAB9FBF3703DFBCADAD21677042F /* Debug */,
+				930F62581382D989DE3E68CA1A3DB361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1085,8 +1075,8 @@
 		FF19B5E704C693A2C9F5E37D33213997 /* Build configuration list for PBXNativeTarget "Pods-KFUPnP_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C802FFF3AEAB3324170D82C88CB3F137 /* Debug */,
-				A24E37691C9F56553F8CB3754DB65EA6 /* Release */,
+				93978C565295DD50053B3EF3DBCF2ECB /* Debug */,
+				BB79F2312A4F9D23BBD542945B0FDA03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

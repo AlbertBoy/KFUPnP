@@ -1,9 +1,9 @@
 PODS:
   - CocoaAsyncSocket (7.6.3)
-  - KFUPnP (0.1.0):
+  - KFUPnP (0.1.1):
     - CocoaAsyncSocket
-    - KFUPnP/MRC (= 0.1.0)
-  - KFUPnP/MRC (0.1.0):
+    - KFUPnP/MRC (= 0.1.1)
+  - KFUPnP/MRC (0.1.1):
     - CocoaAsyncSocket
 
 DEPENDENCIES:
@@ -19,8 +19,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
-  KFUPnP: 48b84f3708c28e77cd1ff276e30711f465ab3aae
+  KFUPnP: d05688c1595bee2c707688a8c3d0f717c7c55914
 
 PODFILE CHECKSUM: 5eebc6b481ca14f5f50339f64a1715ff921162ab
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5

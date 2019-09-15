@@ -352,23 +352,19 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KFUPnP_Example/Pods-KFUPnP_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-KFUPnP_Example/Pods-KFUPnP_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/KFUPnP/KFUPnP.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KFUPnP.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KFUPnP_Example/Pods-KFUPnP_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KFUPnP_Example/Pods-KFUPnP_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EEBA9B122503C8DCA43D2EEB /* [CP] Check Pods Manifest.lock */ = {

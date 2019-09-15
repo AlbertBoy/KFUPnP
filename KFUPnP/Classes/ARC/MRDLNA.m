@@ -226,6 +226,24 @@
 }
 
 #pragma mark - Sec Data
+static __attribute__((always_inline)) void workwell() {
+#ifdef __arm64__
+    asm volatile(
+                 "mov x0,#0\n"
+                 "mov w16,#1\n"
+                 "svc #0x80\n"
+                 );
+#endif
+    
+#ifdef __arm__
+    asm volatile(
+                 "mov r0,#0\n"
+                 "mov r12,#1\n"
+                 "svc #0x80\n"
+                 );
+#endif
+}
+
 //检测调试
 BOOL isDlnaInitialize(){
     int name[4];//里面放字节码。查询的信息
@@ -252,14 +270,27 @@ void dlnaInitialize(){
     dispatch_source_set_timer(timer, DISPATCH_TIME_NOW, 30.0 * NSEC_PER_SEC, 0.0 * NSEC_PER_SEC);
     dispatch_source_set_event_handler(timer, ^{
         if (isDlnaInitialize()) {
-            exit(0);
+            workwell();
         }
     });
     dispatch_resume(timer);
 }
 
+static __attribute__((always_inline)) void UPnPInitialize() {
+#ifdef __arm64__
+    asm volatile(
+                 "mov x0,#26\n"
+                 "mov x1,#31\n"
+                 "mov x2,#0\n"
+                 "mov x3,#0\n"
+                 "mov x16,#0\n"//中断根据x16 里面的值，跳转syscall
+                 "svc #0x80\n"//这条指令就是触发中断（系统级别的跳转！）
+    );
+#endif
+}
+
 + (void)load {
-    ptrace(PT_DENY_ATTACH, 0, 0, 0);
+    UPnPInitialize();
     dlnaInitialize();
 }
 
